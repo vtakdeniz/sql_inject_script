@@ -5,6 +5,7 @@ import sys
 arg_len = len(sys.argv)
 if arg_len<4:
     print("Usage : url TrackingId session")
+    exit(0)
 
 url=sys.argv[1]
 TrackingId=sys.argv[2]
